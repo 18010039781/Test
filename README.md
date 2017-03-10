@@ -13,11 +13,12 @@
 
 ## 项目地址
 
-  [项目测试地址](www.shenchao.net.cn/admin)
+  [项目测试地址](http://www.shenchao.net.cn/admin)
 
 ## 项目部署
 
 数据库使用了：mysql<br>
+
   1、把项目中根目录下的test.sql导入数据库中（共7张表）<br>
   2、修改Application/Common/Conf/config.php文件里数据库的设置<br>
   3、根据不同的环境系统修改根目录下.htaccess文件的路由设置，可参考[URL重写](http://document.thinkphp.cn/manual_3_2/url_rewrite.html)。
