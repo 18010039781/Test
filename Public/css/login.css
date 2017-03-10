@@ -1,0 +1,53 @@
+
+.bg{background: url("../img/bg.png");    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;text-align: center;background-size: cover}
+
+.login-div{display: block;margin: 0 auto;width: 531px;}
+.work-title{color: #ffffff;text-shadow: 2px 2px 2px #000;filter:shadow(Color=#000,Direction=2px,Strength=2px);margin-bottom: 62px;}
+
+.login-title{padding: 0px;position: relative;margin: 0px;}
+/*
+.login-title:before{content:" ";position: absolute;width: 150px;left: 0px;top:50%;margin-top:-1px;border-bottom: 2px solid #cccccc;}
+.login-title:after{content:" ";position: absolute;width: 150px;right: 0px;top:50%;margin-top:-1px;border-bottom: 2px solid #cccccc;}
+*/
+.login-title>h3{color: #353535;padding: 0px 10px;height: 70px;line-height: 70px;margin: 0px;}
+
+.login-box{position: relative;float: left;width: 100%;padding: 16px 0px 27px 0px;background: rgba(255,255,255,.2);
+    box-shadow: 0 0 15px rgba(0,0,0,.6);border-radius: 8px;
+    filter: progid:DXImageTransform.Microsoft.gradient(startcolorstr=#33ffffff,endcolorstr=#33ffffff);
+}
+
+.error-div{height: 20px;line-height: 20px;width: 100%;color:red;text-align: center;}
+
+.mb-20{margin-bottom: 20px;}
+.verify{height: 34px;width: auto;display: block;}
+
+.login-input{display: block;width: 100%;position: relative;}
+.login-input .form-control{color: #323232;text-align: left;padding-left: 35px;}
+
+.col-1dd{color: #1dd0cb}
+.bg-1dd{background: #1dd0cb}
+.has-error .login-input>i{color:#a94442}
+.login-input>i{position: absolute;top:0px;color: #1dd0cb;font-size: 30px;
+    left: 0;
+    z-index: 2;
+    display: block;
+    width: 34px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    pointer-events: none;
+    font-size: 21px;
+}
+
+.box-bagBox{position: absolute;left: 0px;right: 0px;top: 50%;height: 484px;margin-top:-242px;}
+.list-login{position: absolute;bottom: 10px;right: 15px;padding: 0px;margin: 0px;}
+.list-login>li>a{color:#f8f8f8;}
+.list-login>li>a:hover,.list-login>li>a:focus{color:#428bca;text-decoration: none;}
+
+/*错误提示*/
+.open-hint-box{position: fixed;top:0px;left: 0px;right: 0px;background: rgba(42,45,50,0.85);color: rgba(250,251,255,0.95);box-shadow: inset 4.5em 0 rgba(0,0,0,0.6);padding: 20px;text-align: center;z-index: 99999;}
+.open-hint-box>*{margin: 0px; padding: 0px;text-align: center;}
+.open-hint-box>.close{position: absolute;right: 10px;top:50%;height:20px;line-height: 20px;margin-top: -10px; padding: 0px;color:#fff;}
+.open-hint-box>.close:hover{color:#333;}

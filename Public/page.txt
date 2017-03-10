@@ -1,0 +1,16 @@
+<!--必填-->
+<meta property="og:type" content="article"/>
+<meta property="og:image" content="http://www.shenchao.net.cn/Public/resume/img/me0.jpg "/>
+<meta property="og:release_date" content="2017-3-8"/>
+<!--选填-->
+<meta property="og:title" content="沈超的简历"/>
+<meta property="og:description" content="沈超的个人简历....渴望不一样的思路，简练的代码。如果对网页有疑问，请联系我，让我们共同进步，互相帮助。^_^"/>
+
+<!--必填-->
+<meta property="og:type" content="blog"/>
+<meta property="og:image" content="图片地址"/>
+<meta property="og:release_date" content="发表时间"/>
+<!--选填-->
+<meta property="og:title" content=" 博客标题"/>
+<meta property="og:description" content=" 博客描述" />
+<meta property="og:author" content="博客作者"/>
